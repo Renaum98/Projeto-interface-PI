@@ -3,27 +3,40 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    overflow: hidden;  
 }
-
-main{
+header{
+    height: 100px;
+    background-color:#FF8400;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+header>h1{
+    flex: 1 1 300;
+    font-size: 1em;
+    color: whitesmoke;
+    text-align: center;
+}
+main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
 }
 
 .container{
     background-color: rgba(255, 255, 255, 0.808);
     width: 300px;
     height: 300px;
-    border-radius: 50%;
+    
 
     display: flex;
     justify-content: space-evenly;
@@ -32,7 +45,7 @@ main{
 }
 .botao{
     padding: 10px;
-    background-color: rgb(245, 130, 28); 
+    background-color: #FF8400; 
     font-size: large;
     border-radius: 10px;
     flex: 0 1 100;
