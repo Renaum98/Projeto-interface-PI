@@ -17,43 +17,45 @@ header{
     justify-content: center;
     align-items: center;
     border-radius: 0px 0px 10px 10px;
+    
+    
 }
 header>h1{
     flex: 1 1 300;
     font-size: 1em;
-    color: whitesmoke;
+    color: white;
     text-align: center;
 }
 main{
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    
 
 }
 
 .container{
     background-color: rgba(255, 255, 255, 0.808);
     width: 300px;
-    height: 300px;
+    height: 200px;
+    margin-top: 50px;
     
-
+    text-align: center;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
 }
 .botao{
     padding: 10px;
     background-color: #FF8400; 
     font-size: large;
     border-radius: 10px;
-    flex: 0 1 100;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.271);
+    flex: 0 1 200;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.192);
 }
 .botao > a {
     text-decoration: none;  
-    color: whitesmoke;
+    color: white;
 }
 .botao:hover {
     background-color:rgb(172, 90, 18);
