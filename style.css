@@ -8,11 +8,12 @@
 body {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;  
+    overflow: hidden;
+    background-color:white;
 }
 header{
     height: 100px;
-    background-color:#FF8400;
+    background-image: radial-gradient(circle,#FF8400,#e97800);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,8 +36,8 @@ main{
 }
 
 .container{
-    background-color: rgba(255, 255, 255, 0.808);
-    width: 300px;
+    background-color: white;
+    width: 200px;
     height: 200px;
     margin-top: 50px;
     
@@ -45,20 +46,26 @@ main{
     justify-content: space-evenly;
     flex-flow: column nowrap;
 }
-.botao{
-    padding: 10px;
-    background-color: #FF8400; 
-    font-size: large;
-    border-radius: 10px;
-    flex: 0 1 200;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.192);
-}
 .botao > a {
+    
     text-decoration: none;  
     color: white;
 }
+
+.botao{
+    padding: 10px;
+    background-image: radial-gradient(circle,#FF8400,#e97800); 
+    font-size: large;
+    border-radius: 10px;
+    flex: 0 1 200;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.233);
+}
 .botao:hover {
-    background-color:rgb(172, 90, 18);
+    background-image: radial-gradient(circle,#e97800,#FF8400); 
     transform: scale(1.2);
     transition: 0.5s;
+}
+.botao:active {
+    transform: scale(1.1);
+    transition: 0.2s;
 }
