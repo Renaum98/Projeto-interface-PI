@@ -28,37 +28,34 @@ header>h1{
     text-align: center;
 }
 main{
-    height: 100%;
     display: flex;
     justify-content: center;
-    
-
 }
 
 .container{
     background-color: white;
-    width: 200px;
+    width: 90%;
     height: 200px;
     margin-top: 50px;
     
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
 }
 .botao > a {
-    
     text-decoration: none;  
     color: white;
 }
 
 .botao{
+    height: 100px;
     padding: 10px;
     background-image: radial-gradient(circle,#FF8400,#e97800); 
     font-size: large;
     border-radius: 10px;
-    flex: 0 1 200;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.233);
+    flex: 1 1 100;
+    
 }
 .botao:hover {
     background-image: radial-gradient(circle,#e97800,#FF8400); 
@@ -68,4 +65,11 @@ main{
 .botao:active {
     transform: scale(1.1);
     transition: 0.2s;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+iframe {
+    background-color: #e97800;
 }
