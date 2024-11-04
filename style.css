@@ -34,14 +34,14 @@ main{
 
 .container{
     background-color: white;
-    width: 90%;
-    height: 200px;
+    width: 80%;
+    height: 300px;
     margin-top: 50px;
     
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
 }
 .botao > a {
     text-decoration: none;  
@@ -49,17 +49,17 @@ main{
 }
 
 .botao{
-    height: 100px;
+    margin: auto;
+    width: 80%;
+    max-width: 400px;
     padding: 10px;
     background-image: radial-gradient(circle,#FF8400,#e97800); 
     font-size: large;
-    border-radius: 10px;
-    flex: 1 1 100;
-    
+    border-radius: 15px;  
 }
 .botao:hover {
     background-image: radial-gradient(circle,#e97800,#FF8400); 
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.5s;
 }
 .botao:active {
