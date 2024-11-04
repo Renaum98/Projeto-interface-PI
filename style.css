@@ -34,7 +34,7 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.232);
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to bottom, white 80%,rgb(222, 222, 222));
+    background-color: white;
     border-radius: 30px 30px 30px 30px;
 }
 
