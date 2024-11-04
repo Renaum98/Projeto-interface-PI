@@ -7,7 +7,7 @@
 }
 body {
     width: 100vw;
-    height: 100vh;
+    height: 98vh;
     background-image: radial-gradient(circle,#FF8400,#e97800);
 }
 header{
@@ -33,7 +33,7 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.232);
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
+    background-image: linear-gradient(to bottom, white 80%,rgba(218, 218, 218, 0.877));
     border-radius: 50px 50px 50px 50px;
 }
 
