@@ -69,4 +69,6 @@ main{
 .botao:active {
     transform: scale(1.0);
     transition: 0.2s;
+    color: #FF8400;
+    background-image: radial-gradient(circle, white 50%,rgb(230, 230, 230));
 }
