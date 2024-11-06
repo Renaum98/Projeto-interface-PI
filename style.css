@@ -7,7 +7,7 @@
 }
 body {
     width: 100vw;
-    height: 98vh;
+    height: 100vh;
     overflow: auto;
     background-image: linear-gradient(to bottom,#FF8400,#e97800);
 }
