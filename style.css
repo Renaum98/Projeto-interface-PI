@@ -9,7 +9,7 @@ body {
     width: 100vw;
     height: 98vh;
     overflow: auto;
-    background-image: radial-gradient(circle,#FF8400,#e97800);
+    background-image: linear-gradient(to bottom,#FF8400,#e97800);
 }
 header{
     height: 100px;
